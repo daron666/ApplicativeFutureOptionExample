@@ -1,6 +1,8 @@
 import cats._
 import cats.implicits._
 
+import monix.cats._
+
 import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.duration._
 import scala.concurrent.{Await, Future, Promise}
